@@ -363,7 +363,7 @@
 
     <div class="rounded bg-light my-5" style="width: auto; height: 5px; "></div>
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">iTrustpay</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">iTrustpay</strong> <span>All Rights Reserved | <span id="year"></span></span></p>
     </div>
 
   </footer>
@@ -384,7 +384,9 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
-
 </html>
