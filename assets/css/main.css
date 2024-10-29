@@ -1,5 +1,5 @@
-*{
-  font-family:  sans-serif;
+.social-text{
+  font-family:  Arial;
 }
 
 /* Global Colors */ 
@@ -1692,9 +1692,7 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
 
 /* my css  */
 .skew-hover:hover {
@@ -1738,5 +1736,7 @@ img.blue-tone {
 .feature-image img:hover {
   transform: scale(1.05);
 }
+
+
 
 
