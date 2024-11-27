@@ -404,12 +404,18 @@ h6 {
 
   .mobile-nav-active .mobile-nav-toggle {
     color: #fff;
+    background-color: rgb(67, 164, 67);
     position: absolute;
     font-size: 32px;
     top: 15px;
     right: 15px;
     margin-right: 0;
     z-index: 9999;
+  }
+  .mobile-nav-toggle {
+    color: #fff;
+    background-color: rgb(67, 164, 67);
+
   }
 
   .mobile-nav-active .navmenu {
@@ -470,9 +476,9 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  border: 1px solid #fff;
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+ 
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -1069,10 +1075,19 @@ section,
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+.features-item {
+  background-color: var(--surface-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
 .features .features-item {
   background-color: var(--surface-color);
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 20px;
   transition: 0.3s;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
