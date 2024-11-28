@@ -1,6 +1,8 @@
-.social-text{
-  font-family:  Arial;
+*{
+  font-family: Arial;
 }
+
+
 
 /* Global Colors */ 
 :root { 
@@ -48,7 +50,6 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family:  sans-serif;
 }
 
 a {
@@ -69,7 +70,7 @@ h4,
 h5,
 h6 {
   color: var(--heading-color);
-  font-family:  sans-serif;
+  /* font-family:  sans-serif; */
 }
 
 /* PHP Email Form Messages
@@ -460,13 +461,11 @@ h6 {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: var(--heading-font);
   color: var(--heading-color);
 }
 
 .footer .footer-about p {
   font-size: 14px;
-  font-family: var(--heading-font);
 }
 
 .footer .social-links a {
@@ -478,7 +477,6 @@ h6 {
   border-radius: 50%;
   border: 1px solid #fff;
   font-size: 16px;
- 
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -830,7 +828,6 @@ section,
 .hero .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-family:  sans-serif;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
@@ -993,7 +990,6 @@ section,
 .about .content .read-more {
   background: var(--accent-color);
   color: var(--contrast-color);
-  font-family: var(--heading-font);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1162,7 +1158,6 @@ section,
 .stats .stats-item p {
   padding: 0;
   margin: 0;
-  font-family: var(--heading-font);
   font-size: 16px;
 }
 
@@ -1468,7 +1463,6 @@ section,
   border-radius: 5px;
   font-size: 16px;
   font-weight: 500;
-  font-family: var(--heading-font);
   transition: 0.3s;
   margin-top: 20px;
   margin-bottom: 6px;
